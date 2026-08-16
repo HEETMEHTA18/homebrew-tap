@@ -4,12 +4,12 @@ cask "autodev" do
 
   on_macos do
     on_intel do
-      sha256 "257d1ba09e1d39ec2dbf8952e4e4068014ac8c77abba8b5c58f2d7c28c29e59a"
+      sha256 "f2d46eb6927d76314661e0fe62ca5f8ad959ed4a4303c69c52eecdc3ec52250e"
       url "https://github.com/HEETMEHTA18/autodev/releases/download/v#{version}/autodev_darwin_amd64.tar.gz",
         verified: "github.com/heetmehta18/autodev"
     end
     on_arm do
-      sha256 "8a3ed85edf8845b0ac8545ace54245dcf61e71b670a56e83b7211bdd10bcb3cd"
+      sha256 "9416d5ffb759c03a3a3976240923380f423bf0dafe1d8adea777c4a72beb6e86"
       url "https://github.com/HEETMEHTA18/autodev/releases/download/v#{version}/autodev_darwin_arm64.tar.gz",
         verified: "github.com/heetmehta18/autodev"
     end
@@ -17,12 +17,12 @@ cask "autodev" do
 
   on_linux do
     on_intel do
-      sha256 "e42f68da89d2f77433fb45d45b9393df463e173a39df7fcbe2572caf9aeecf89"
+      sha256 "6e77628cf3e1a6fdd680690661ae264ab081755f87f77b8e5d4fc73141831f67"
       url "https://github.com/HEETMEHTA18/autodev/releases/download/v#{version}/autodev_linux_amd64.tar.gz",
         verified: "github.com/heetmehta18/autodev"
     end
     on_arm do
-      sha256 "c95be091b1bfa26a93d0bfd903e4e65396b513289d92bca4811390ec9e5311fa"
+      sha256 "7018096fabb439d3e03f6c64510f741e377b21053a734ffe3e389a35c0794dc5"
       url "https://github.com/HEETMEHTA18/autodev/releases/download/v#{version}/autodev_linux_arm64.tar.gz",
         verified: "github.com/heetmehta18/autodev"
     end
